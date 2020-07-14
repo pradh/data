@@ -7,18 +7,6 @@ from app.executor import executor
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST'])
-def execute_imports():
-    task_info = request.get_json(force=True)
-    repo_name = task_info['REPO_NAME']
-    commit_sha = task_info['COMMIT_SHA']
-    branch_name = task_info['BRANCH_NAME']
-    pr_number = task_info['PR_NUMBER']
-
-    return executor.execute_imports_on_commit(
-        commit_sha, repo_name, branch_name, pr_number)
-
-
 @app.route('/update', methods=['POST'])
 def scheduled_updates():
     task_info = request.get_json(force=True)

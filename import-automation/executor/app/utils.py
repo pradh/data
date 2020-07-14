@@ -27,7 +27,7 @@ def relative_import_name(import_name):
 
 def split_relative_import_name(import_name):
     return import_name.split(':')
-    
+
 
 def get_relative_import_names(import_names):
     return list(name for name in import_names if relative_import_name(name))
