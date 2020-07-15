@@ -1,3 +1,4 @@
+import logging
 import os
 import re
 import shutil
@@ -119,6 +120,7 @@ class GitHubRepoAPI:
             'repo_name': self.repo,
             'commit_sha': commit_sha
         })
+        logging.info('github_api: DOWNLOADING ' + download_query)
 
         with tempfile.NamedTemporaryFile(suffix='.tar.gz') as temp_file:
             with requests.get(download_query, auth=self.auth, stream=True) as response:

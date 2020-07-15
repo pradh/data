@@ -38,20 +38,25 @@ def run_user_script(script_path, interpreter_path):
 
 
 def execute_import_on_update(absolute_import_name):
+    logging.info(absolute_import_name + ': BEGIN')
     github = github_api.GitHubRepoAPI()
     with tempfile.TemporaryDirectory() as tmpdir:
+        logging.info(absolute_import_name + ': downloading repo')
         repo_dirname = github.download_repo(tmpdir)
+        logging.info(absolute_import_name + ': downloaded repo ' + repo_dirname)
         cwd = os.path.join(tmpdir, repo_dirname)
         os.chdir(cwd)
 
         dir_path, import_name = utils.split_relative_import_name(
             absolute_import_name)
         manifest_path = os.path.join(dir_path, configs.MANIFEST_FILENAME)
+        logging.info(absolute_import_name + ': PARSE manifest ' + manifest_path)
         manifest = parse_manifest(manifest_path)
         for spec in manifest['import_specifications']:
             if import_name == 'all' or import_name == spec['import_name']:
                 import_one(dir_path, spec)
 
+    logging.info(absolute_import_name + ': END')
     return 'success'
 
 
@@ -64,13 +69,16 @@ def import_one(dir_path, import_spec):
     urls = import_spec.get('data_download_url')
     if urls:
         for url in urls:
+            logging.info(import_name + ': DOWNLOADING ' + url)
             utils.download_file(url, '.')
 
     with tempfile.TemporaryDirectory() as tmpdir:
+        logging.info(import_name + ': CREATING venv')
         interpreter_path, process = create_venv(configs.REQUIREMENTS_FILENAME, tmpdir)
 
         script_paths = import_spec.get('scripts')
         for path in script_paths:
+            logging.info(import_name + ': INVOKING script ' + path)
             process = run_user_script(path, interpreter_path)
 
     import_inputs = import_spec.get('import_inputs', [])
@@ -81,12 +89,15 @@ def import_one(dir_path, import_spec):
 
         time = utils.utctime()
         if template_mcf:
+          logging.info(import_name + ': UPLOADING template_mcf ' + template_mcf)
           gcs_io.upload_file(template_mcf, f'{dir_path}:{import_name}/{time}/{os.path.basename(template_mcf)}', configs.BUCKET_NAME)
 
         if cleaned_csv:
+          logging.info(import_name + ': UPLOADING cleaned_csv ' + cleaned_csv)
           gcs_io.upload_file(cleaned_csv, f'{dir_path}:{import_name}/{time}/{os.path.basename(cleaned_csv)}', configs.BUCKET_NAME)
 
         if node_mcf:
+          logging.info(import_name + ': UPLOADING node_mcf ' + node_mcf)
           gcs_io.upload_file(node_mcf, f'{dir_path}:{import_name}/{time}/{os.path.basename(node_mcf)}', configs.BUCKET_NAME)
 
     os.chdir(cwd)

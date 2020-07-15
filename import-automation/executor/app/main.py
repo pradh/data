@@ -2,6 +2,7 @@ import logging
 
 from flask import Flask, request
 
+from app import utils
 from app.executor import executor
 
 app = Flask(__name__)
@@ -15,6 +16,7 @@ def scheduled_updates():
 
 @app.route('/_ah/start')
 def start():
+    utils.setup_logging()
     return ''
 
 
