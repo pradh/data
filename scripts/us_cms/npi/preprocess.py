@@ -48,7 +48,7 @@ OUTPUT_COLUMNS = ['dcid', 'providerType', 'name', 'gender',
 
 
 def _emit_tmcf(out_tmcf):
-    lines = ['Node: npi', 'typeOf: dcs:HealthCareProvider']
+    lines = ['Node: E:npi_csv->E1', 'typeOf: dcs:HealthCareProvider']
     for c in OUTPUT_COLUMNS:
         lines.append(c + ': C:npi_csv->' + c)
     out_tmcf.write('\n'.join(lines) + '\n')
