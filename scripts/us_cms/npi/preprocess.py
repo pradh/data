@@ -47,6 +47,10 @@ OUTPUT_COLUMNS = ['dcid', 'providerType', 'name', 'gender',
                   'primaryTaxonomy', 'enumerationDate']
 
 
+def _strfy(s):
+    return '"' + s + '"'
+
+
 def _emit_tmcf(out_tmcf):
     lines = ['Node: E:npi_csv->E1', 'typeOf: dcs:HealthCareProvider']
     for c in OUTPUT_COLUMNS:
@@ -64,12 +68,12 @@ def _process_person_details(in_rec, out_rec):
         if in_rec[f]:
             name_parts.append(string.capwords(in_rec[f]))
     if name_parts:
-        out_rec['name'] = ' '.join(name_parts)
+        out_rec['name'] = _strfy(' '.join(name_parts))
 
     # Credential
     cred = in_rec['Provider Credential Text']
     if cred:
-        out_rec['providerCredential'] = cred
+        out_rec['providerCredential'] = _strfy(cred)
 
     # Gender
     gender = in_rec['Provider Gender Code']
@@ -86,7 +90,7 @@ def _process_org_details(in_rec, out_rec):
     # Name
     name = in_rec['Provider Organization Name (Legal Business Name)']
     if name:
-        out_rec['name'] = string.capwords(name)
+        out_rec['name'] = _strfy(string.capwords(name))
 
 
 def _process_address(in_rec, out_rec):
@@ -139,7 +143,7 @@ def _process_address(in_rec, out_rec):
     else:
         address_parts.append(cc)
     if address_parts:
-        out_rec['primaryPracticeAddress'] = ', '.join(address_parts)
+        out_rec['primaryPracticeAddress'] = _strfy(', '.join(address_parts))
 
 
 def _process_taxonomy(in_rec, out_rec):
@@ -170,7 +174,7 @@ def preprocess(in_csv, out_csv, out_tmcf):
         npi = in_rec['NPI']
         if not npi:
             continue
-        out_rec['dcid'] = 'npi/' + npi
+        out_rec['dcid'] = _strfy('npi/' + npi)
 
         pt = in_rec['Entity Type Code']
         if pt == '1':
@@ -184,7 +188,7 @@ def preprocess(in_csv, out_csv, out_tmcf):
         if ed:
             m = re.match('^(\d\d)/(\d\d)/(\d\d\d\d)', ed)
             if len(m.groups()) == 3:
-                out_rec['enumerationDate'] = (m.groups()[2] + '-' +
+                out_rec['enumerationDate'] = _strfy(m.groups()[2] + '-' +
                         m.groups()[0] + '-' + m.groups()[1])
 
         _process_address(in_rec, out_rec)
