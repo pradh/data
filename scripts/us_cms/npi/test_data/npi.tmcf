@@ -1,0 +1,11 @@
+Node: npi
+typeOf: dcs:HealthCareProvider
+dcid: C:npi_csv->dcid
+providerType: C:npi_csv->providerType
+name: C:npi_csv->name
+gender: C:npi_csv->gender
+providerCredential: C:npi_csv->providerCredential
+primaryPracticeAddress: C:npi_csv->primaryPracticeAddress
+primaryPracticeLocation: C:npi_csv->primaryPracticeLocation
+primaryTaxonomy: C:npi_csv->primaryTaxonomy
+enumerationDate: C:npi_csv->enumerationDate

@@ -1,0 +1,75 @@
+dcid,providerType,name,gender,providerCredential,primaryPracticeAddress,primaryPracticeLocation,primaryTaxonomy,enumerationDate
+npi/1679576722,schema:Person,David Wiebe,schema:Male,M.D.,"3500 Central Ave, Kearney, NE 688472944, USA","dcid:geoId/31, dcid:zip/68847",dcid:nuccCode/207X00000X,2005-05-23
+npi/1588667638,schema:Person,William Pilcher,schema:Male,MD,"1824 King Street, Suite 300, Jacksonville, FL 322044736, USA","dcid:geoId/12, dcid:zip/32204",dcid:nuccCode/207RC0000X,2005-05-23
+npi/1497758544,schema:Organization,"Cumberland County Hospital System, Inc",,,"3418 Village Dr, Fayetteville, NC 283044552, USA","dcid:geoId/37, dcid:zip/28304",dcid:nuccCode/251G00000X,2005-05-23
+npi/1306849450,schema:Person,Harold Smitson,schema:Male,M.D.,"810 Lucas Dr, Athens, TX 757513446, USA","dcid:geoId/48, dcid:zip/75751",dcid:nuccCode/2085R0202X,2005-05-23
+npi/1215930367,schema:Person,Laurent Gressot,schema:Male,M.D.,"17323 Red Oak Dr, Houston, TX 770901243, USA","dcid:geoId/48, dcid:zip/77090",dcid:nuccCode/207RH0003X,2005-05-23
+npi/1023011178,schema:Organization,Collabria Care,,,"414 S Jefferson St, Napa, CA 945594515, USA","dcid:geoId/06, dcid:zip/94559",dcid:nuccCode/251G00000X,2005-05-23
+npi/1932102084,schema:Person,Ravi Adusumilli,schema:Male,MD,"2940 N Mccord Rd, Toledo, OH 436151753, USA","dcid:geoId/39, dcid:zip/43615",dcid:nuccCode/207RC0000X,2005-05-23
+npi/1841293990,schema:Person,Susan Wortsman,schema:Female,MA-CCC,"425 E 25th St, New York, NY 100102547, USA","dcid:geoId/36, dcid:zip/10010",dcid:nuccCode/231H00000X,2005-05-23
+npi/1750384806,schema:Person,Robert Bisbee,schema:Male,MD,"808 Joliet Ave Unit 120, Lubbock, TX 794151148, USA","dcid:geoId/48, dcid:zip/79415",dcid:nuccCode/207R00000X,2005-05-23
+npi/1669475711,schema:Person,Bin Sung,schema:Female,M. D.,"7629 Tiki Dr, Fulshear, TX 774411548, USA","dcid:geoId/48, dcid:zip/77441",dcid:nuccCode/208000000X,2005-05-23
+npi/1578566626,schema:Person,Warren Kuipers,schema:Male,MD,"1205 S 7th Ave, Phoenix, AZ 850073913, USA","dcid:geoId/04, dcid:zip/85007",dcid:nuccCode/207Q00000X,2005-05-23
+npi/1487657532,schema:Person,Allison Huebert,schema:Female,M.D.,"3400 W Tecumseh Rd, Suite 205, Norman, OK 730721810, USA","dcid:geoId/40, dcid:zip/73072",dcid:nuccCode/207V00000X,2005-05-23
+npi/1396748448,schema:Person,Cynthia Youngmayka,schema:Female,P.A.,"8100 Oswego Rd, Suite 220, Liverpool, NY 130901654, USA","dcid:geoId/36, dcid:zip/13090",dcid:nuccCode/363A00000X,2005-05-23
+npi/1205839354,schema:Person,Emil Difilippo,schema:Male,M.D.,"9323 Phoenix Village Pkwy, O Fallon, MO 633664281, USA","dcid:geoId/29, dcid:zip/63366",dcid:nuccCode/207X00000X,2005-05-23
+npi/1114920261,schema:Person,Richard Thacker,schema:Male,D.O.,"2770 Capital Medical Blvd, Ste 200, Tallahassee, FL 323088417, USA","dcid:geoId/12, dcid:zip/32308",dcid:nuccCode/207R00000X,2005-05-23
+npi/1023011079,schema:Organization,"Advantage Home Health Care, Inc.",,,"425 E. Us Rt. 6, Suite F, Morris, IL 604508812, USA","dcid:geoId/17, dcid:zip/60450",dcid:nuccCode/251E00000X,2005-05-23
+npi/1932102985,schema:Person,Mark Rothstein,schema:Male,M.D.,"75 Hospital Dr, Suite 350, Athens, OH 457012857, USA","dcid:geoId/39, dcid:zip/45701",dcid:nuccCode/207Q00000X,2005-05-23
+npi/1841293891,schema:Person,Elmer Gibbs,schema:Male,M.D.,"49 Cleveland St 310, Crossville, TN 385552854, USA","dcid:geoId/47, dcid:zip/38555",dcid:nuccCode/208600000X,2005-05-23
+npi/1750384707,schema:Person,Alan Markman,schema:Male,M.D.,"8100 Northland Dr, Minneapolis, MN 554314800, USA","dcid:geoId/27, dcid:zip/55431",dcid:nuccCode/174400000X,2005-05-23
+npi/1669475612,schema:Person,Debbie Trotchie,schema:Female,APN,"6140 S Fort Apache Rd Ste 110, Las Vegas, NV 89148, USA","dcid:geoId/32, dcid:zip/89148",dcid:nuccCode/363LW0102X,2005-05-23
+npi/1578566527,schema:Person,Stanley Dysart,schema:Male,M.D.,"300 Tower Rd Ne, Ste 200, Marietta, GA 300609403, USA","dcid:geoId/13, dcid:zip/30060",dcid:nuccCode/207X00000X,2005-05-23
+npi/1487657433,schema:Organization,"Pekin Mri, Llc",,,"1300 Park Ave, Pekin, IL 615545038, USA","dcid:geoId/17, dcid:zip/61554",dcid:nuccCode/293D00000X,2005-05-23
+npi/1396748349,schema:Person,George Grunert,schema:Male,M.D.,"7900 Fannin St Ste 4000, Houston Fertility Specialists Pllc, Houston, TX 770542935, USA","dcid:geoId/48, dcid:zip/77054",dcid:nuccCode/207VE0102X,2005-05-23
+npi/1205839255,schema:Person,Steven Goldberg,schema:Male,M.D.,"1010 Northern Blvd, Ste 110, Great Neck, NY 110215306, USA","dcid:geoId/36, dcid:zip/11021",dcid:nuccCode/207RC0000X,2005-05-23
+npi/1114920162,schema:Person,Jon Dubose,schema:Male,MD,"111 Hospital Dr, Tarboro, NC 278862011, USA","dcid:geoId/37, dcid:zip/27886",dcid:nuccCode/207R00000X,2005-05-23
+npi/1922001973,schema:Person,Teresa Anderson-krull,schema:Female,MSW LICSW,"216 E Main St, Albert Lea, MN 560072919, USA","dcid:geoId/27, dcid:zip/56007",dcid:nuccCode/1041C0700X,2005-05-23
+npi/1831192889,schema:Person,Craig Coe,schema:Male,MD,"210 Westside Dr, Dothan, AL 363031928, USA","dcid:geoId/01, dcid:zip/36303",dcid:nuccCode/207R00000X,2005-05-23
+npi/1740283795,schema:Organization,Eastern Star Masonic Home,,,"715 W 3rd St, Boone, IA 500363930, USA","dcid:geoId/19, dcid:zip/50036",dcid:nuccCode/313M00000X,2005-05-23
+npi/1659374601,schema:Person,Wendy Oberdick,schema:Female,MD,"105 W Stone Dr, Ste 1f, Kingsport, TN 376603365, USA","dcid:geoId/47, dcid:zip/37660",dcid:nuccCode/207Q00000X,2005-05-23
+npi/1568465516,schema:Person,Rawn Salenger,schema:Male,M.D.,"257 Lafayette Ave, Suite 330, Suffern, NY 109014830, USA","dcid:geoId/36, dcid:zip/10901",dcid:nuccCode/208G00000X,2005-05-23
+npi/1477556421,schema:Person,Steven Roth,schema:Male,O.D.,"1107 Mantua Pike, Ste 722, Mantua, NJ 080511606, USA","dcid:geoId/34, dcid:zip/08051",dcid:nuccCode/152W00000X,2005-05-23
+npi/1255334207,schema:Person,Richard Soucier,schema:Male,MD,"114 Woodland St, Hartford, CT 061051208, USA","dcid:geoId/09, dcid:zip/06105",dcid:nuccCode/207RC0000X,2005-05-23
+npi/1164425112,schema:Person,Brian Isetts,schema:Male,"B.C.P.S., PH.D.","308 Harvard St Se, Rm 7-175, Minneapolis, MN 554550353, USA","dcid:geoId/27, dcid:zip/55455",dcid:nuccCode/1835P1200X,2005-05-23
+npi/1073516027,schema:Person,John Chang,schema:Male,M.D.,"169 N Middletown Rd, Pearl River, NY 109652029, USA","dcid:geoId/36, dcid:zip/10965",dcid:nuccCode/207W00000X,2005-05-23
+npi/1982607933,schema:Organization,Adr Llc,,,"952 Seton Dr, Cumberland, MD 215021950, USA","dcid:geoId/24, dcid:zip/21502",dcid:nuccCode/174400000X,2005-05-23
+npi/1700889755,schema:Organization,Azar/filipov Md Pa,,,"31519 Winterplace Pkwy, Ste 1, Salisbury, MD 218041884, USA","dcid:geoId/24, dcid:zip/21804",dcid:nuccCode/207W00000X,2005-05-23
+npi/1619970662,schema:Person,Lisa Friedman,schema:Female,"RN, MSN, CPNP","333 N Santa Rosa, San Antonio, TX 782073108, USA","dcid:geoId/48, dcid:zip/78207",dcid:nuccCode/363LP0200X,2005-05-23
+npi/1427051473,schema:Organization,Oakview Medical Care Facility,,,"1001 Diana St, Ludington, MI 494311908, USA","dcid:geoId/26, dcid:zip/49431",dcid:nuccCode/314000000X,2005-05-23
+npi/1336142389,schema:Organization,Adirondack Medical Health Care Associates Pllc,,,"1656 Champlin Ave, New Hartford, NY 134131068, USA","dcid:geoId/36, dcid:zip/13413",dcid:nuccCode/207P00000X,2005-05-23
+npi/1245233295,schema:Person,Jill Potts,schema:Female,M.D.,"335 Parrish St, Canandaigua, NY 144241728, USA","dcid:geoId/36, dcid:zip/14424",dcid:nuccCode/207R00000X,2005-05-23
+npi/1962405910,schema:Organization,"Alabama Cardiovascular Group, P.c.",,,"2700 10th Ave S, Ste 305, Birmingham, AL 352051248, USA","dcid:geoId/01, dcid:zip/35205",dcid:nuccCode/174400000X,2005-05-23
+npi/1871596825,schema:Person,Timothy Wolter,schema:Male,MD,"716 W Columbia St, Chippewa Falls, WI 547292104, USA","dcid:geoId/55, dcid:zip/54729",dcid:nuccCode/207Q00000X,2005-05-23
+npi/1780687731,schema:Person,Arlene Staubsinger,schema:Female,PH.D.,"8100 Oswego Rd, Ste 235, Liverpool, NY 130901660, USA","dcid:geoId/36, dcid:zip/13090",,2005-05-23
+npi/1699778647,schema:Organization,"Visiting Home Health Services, Inc",,,"4291 Rock Island Rd, Lauderhill, FL 333194509, USA","dcid:geoId/12, dcid:zip/33319",dcid:nuccCode/251E00000X,2005-05-23
+npi/1508869553,schema:Person,Lee Van Houten-sauter,schema:Female,D.O.,"220 Pine St, Williamstown, NJ 080941137, USA","dcid:geoId/34, dcid:zip/08094",dcid:nuccCode/207Q00000X,2005-05-23
+npi/1417950460,schema:Person,John Garcia,schema:Male,M.D.,"1631 Hospital Dr, Suite 200, Santa Fe, NM 875054728, USA","dcid:geoId/35, dcid:zip/87505",dcid:nuccCode/207X00000X,2005-05-23
+npi/1225031271,schema:Person,John Shepherd,schema:Male,MD,"293 Olmsted Blvd, Ste 7, Pinehurst, NC 283749023, USA","dcid:geoId/37, dcid:zip/28374",dcid:nuccCode/207RN0300X,2005-05-23
+npi/1134122187,schema:Person,Cheryl Rudnicke,schema:Female,CRNP,"250 25th Ave N, Ste 412, Nashville, TN 372031632, USA","dcid:geoId/47, dcid:zip/37203",dcid:nuccCode/363L00000X,2005-05-23
+npi/1043213093,schema:Organization,Home I V Specialists Inc,,,"200 S Main St, Jonesboro, AR 72401, USA","dcid:geoId/05, dcid:zip/72401",dcid:nuccCode/3336H0001X,2005-05-23
+npi/1952304909,schema:Person,Alfred Vasta,schema:Male,M.D.,"99 N West End Blvd, Suite 102, Quakertown, PA 189511272, USA","dcid:geoId/42, dcid:zip/18951",dcid:nuccCode/207R00000X,2005-05-23
+npi/1861495814,schema:Person,Francisco Smith,schema:Male,M.D.,"1660 Medical Blvd, Ste 302, Naples, FL 341101497, USA","dcid:geoId/12, dcid:zip/34110",dcid:nuccCode/207VX0201X,2005-05-23
+npi/1689677635,schema:Person,Stephen Duritsch,schema:Male,M.D.,"1 Medical Center Dr, Atrium Medical Center, Middletown, OH 450052584, USA","dcid:geoId/39, dcid:zip/45005",dcid:nuccCode/208100000X,2005-05-23
+npi/1598768541,schema:Person,Bertha Arenas,schema:Female,FNP,"1702 N Alamo St, San Antonio, TX 782151201, USA","dcid:geoId/48, dcid:zip/78215",dcid:nuccCode/363LF0000X,2005-05-23
+npi/1407859457,schema:Person,Thomas Magnifico,schema:Male,RPH,"4021 Cascade Rd Se, Suite 50, Grand Rapids, MI 495462177, USA","dcid:geoId/26, dcid:zip/49546",dcid:nuccCode/183500000X,2005-05-23
+npi/1316940364,schema:Person,Geetha Conjeevaram,schema:Female,M.D.,"75 Hospital Dr, Suite 350, Athens, OH 457012857, USA","dcid:geoId/39, dcid:zip/45701",dcid:nuccCode/207R00000X,2005-05-23
+npi/1124021175,schema:Person,Dana Trippi,schema:Female,D.O.,"3100 N Tenaya Way, Las Vegas, NV 891280436, USA","dcid:geoId/32, dcid:zip/89128",dcid:nuccCode/207P00000X,2005-05-23
+npi/1033112081,schema:Person,John Fogarty,schema:Male,MD,"1850 W Arlington Blvd, Greenville, NC 278345704, USA","dcid:geoId/37, dcid:zip/27834",dcid:nuccCode/207RP1001X,2005-05-23
+npi/1942203997,schema:Person,Jacqueline Myers,schema:Female,"AND, BSN, MS, ANP","618 Pleasantville Rd, Suite 202, Lancaster, OH 431303312, USA","dcid:geoId/39, dcid:zip/43130",dcid:nuccCode/363LA2200X,2005-05-23
+npi/1851394803,schema:Person,Spence Harper,schema:Male,DPM,"999 E Murray Holladay Rd, Suite 102, Salt Lake City, UT 841174961, USA","dcid:geoId/49, dcid:zip/84117",dcid:nuccCode/213ES0103X,2005-05-23
+npi/1649273681,schema:Person,Rose Ann Renouf,schema:Female,CRNA,"1401 Henderson St, Fort Worth, TX 761026026, USA","dcid:geoId/48, dcid:zip/76102",dcid:nuccCode/367500000X,2005-05-23
+npi/1558364596,schema:Person,Tanveer Akbar,schema:Male,MD,"10620 Southern Highlands Pkwy, Ste. 110-507, Las Vegas, NV 891414371, USA","dcid:geoId/32, dcid:zip/89141",dcid:nuccCode/207R00000X,2005-05-23
+npi/1467455402,schema:Person,Scott Mccoy,schema:Male,OT,"3050 N Litchfield Rd, Suite 100, Goodyear, AZ 853957804, USA","dcid:geoId/04, dcid:zip/85395",dcid:nuccCode/225XH1200X,2005-05-23
+npi/1376546317,schema:Person,Maurice Allgeier,schema:Male,MD,"6425 Bardstown Rd, Louisville, KY 402913040, USA","dcid:geoId/21, dcid:zip/40291",dcid:nuccCode/208000000X,2005-05-23
+npi/1285637223,schema:Person,Steven Lowry,schema:Male,D.O.,"220 Pine St, Williamstown, NJ 080941137, USA","dcid:geoId/34, dcid:zip/08094",dcid:nuccCode/207Q00000X,2005-05-23
+npi/1194728139,schema:Person,Susan Stewart,schema:Female,P.A.-C,"Maui Medical Group, 2180 Main Street, Wailuku, HI 96793, USA","dcid:geoId/15, dcid:zip/96793",dcid:nuccCode/363AM0700X,2005-05-23
+npi/1003819046,schema:Person,Barbara Nylander,schema:Female,M.D.,"345 23rd Ave N, Suite 209, Nashville, TN 372031513, USA","dcid:geoId/47, dcid:zip/37203",dcid:nuccCode/207VG0400X,2005-05-23
+npi/1912900952,schema:Person,Stephen Kauffman,schema:Male,M.D.,"3450 N Beauregard St, Ste 1, Alexandria, VA 223021200, USA","dcid:geoId/51, dcid:zip/22302",dcid:nuccCode/208D00000X,2005-05-23
+npi/1720081763,schema:Organization,Towne & Country Pharmacy Florist & Gifts Inc,,,"675 East Hwy 60, Hardinsburg, KY 401430675, USA","dcid:geoId/21, dcid:zip/40143",dcid:nuccCode/332BX2000X,2005-05-23
+npi/1497758429,schema:Organization,Fort Wayne Orthopaedics Llc,,,"7601 W Jefferson Blvd, Fort Wayne, IN 468044133, USA","dcid:geoId/18, dcid:zip/46804",dcid:nuccCode/207X00000X,2005-05-23
+npi/1306849336,schema:Person,Eric Townsend,schema:Male,DDS,"105 Solana Rd, Ste A, Ponte Vedra, FL 320825229, USA","dcid:geoId/12, dcid:zip/32082",dcid:nuccCode/1223G0001X,2005-05-23
+npi/1215930243,schema:Person,Andrew Vincent,schema:Male,D.P.M.,"650 Cedar Creek Grade Ste 108, Winchester, VA 226016453, USA","dcid:geoId/51, dcid:zip/22601",dcid:nuccCode/213ES0103X,2005-05-23
+npi/1548263965,schema:Person,Ann Rudden,schema:Female,M.D.,"108 Nerang Street, Gold Coast Hospital, Southport, AU",dcid:country/AUS,dcid:nuccCode/207RG0300X,2005-05-31
+npi/1902800691,schema:Person,Pedro Rivera Morillo,schema:Male,M.D.,"Avenida Munoz Marin A-8, Caguas, PR 00725, USA","dcid:geoId/72, dcid:zip/00725",dcid:nuccCode/2080A0000X,2005-06-09
+npi/1356341580,schema:Person,Francisco Veray,schema:Male,"D.D.S, M.S","Psc 827 Box526, Fpo, IT",dcid:country/ITA,,2005-07-29
