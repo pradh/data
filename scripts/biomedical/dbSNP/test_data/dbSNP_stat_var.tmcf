@@ -1,0 +1,7 @@
+Node: E:dbSNP_stat_var->E1
+typeOf: dcs:StatVarObservation
+samplePopulation: C:dbSNP_stat_var->samplePopulation
+variableMeasured: C:dbSNP_stat_var->variableMeasured
+observationAbout: C:dbSNP_stat_var->observationAbout
+observationDate: C:dbSNP_stat_var->observationDate
+value: C:dbSNP_stat_var->value
